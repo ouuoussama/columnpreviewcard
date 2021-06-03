@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    background-color: hsl(0, 0%, 95%);
+}
+img{
+    padding: 20px 0;
+}
+h1{
+    padding: 20px 0;
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 2.5rem;
+}
+.paragraph{
+  color:hsla(0, 0%, 100%, 0.75);  
+  width: 220px;
+    padding: 20px 0;
+    font-size: 15px;
+    line-height: 2;
+}
+
+.btn{
+    padding: 50px 0 30px 0 ;
+}
+button{
+    padding:15px 45px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+}
+.btn-1 > button{
+    color: hsl(31, 77%, 52%);
+}
+.btn-2 > button{
+    color: hsl(184, 100%, 22%);
+}
+.btn-3 > button{
+    color: hsl(179, 100%, 13%);
+}
+.btn-1 > button:hover{
+    background-color: hsl(31, 77%, 52%);
+    border: 1px solid white;
+    color: white;
+    transition: all .7s ease-in-out ;
+}
+.btn-2 > button:hover{
+    background-color: hsl(184, 100%, 22%);
+    border: 1px solid white;
+    color: white;
+    transition: all .7s ease-in-out ;
+}
+.btn-3 > button:hover{
+    background-color: hsl(179, 100%, 13%);
+    border: 1px solid white;
+    color: white;
+    transition: all .7s ease-in-out ;
+}
+.column1{
+    background-color: hsl(31, 77%, 52%) ;
+    padding: 26px 45px ;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.column2{
+    background-color: hsl(184, 100%, 22%) ;
+    padding: 26px 45px;
+
+}
+.column3{
+    background-color: hsl(179, 100%, 13%);
+    padding: 26px 45px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+.container{
+    margin-top: 5rem ;
+    
+    display: grid;
+    grid-auto-flow: column;
+}
+main{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.pl{
+    text-align: center;
+    font-size: 11px;
+}

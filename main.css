@@ -1,0 +1,42 @@
+@media screen and (max-width:979px){
+    .container{
+        margin-top: 5rem ;
+        display: block;
+    }
+    .column1{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+    }
+    .column3{
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    #footer{
+        margin: 35px ;
+    }
+}
+@media screen and (max-width:374px) {
+    img{
+        padding: 20px 0;
+    }
+    h1{
+        padding: 20px 0;
+        font-family: 'Big Shoulders Display';
+        font-weight: 700;
+        color: #ffffff;
+        font-size: 2.5rem;
+    }
+    .paragraph{
+      color:hsla(0, 0%, 100%, 0.75);  
+      width: 188px;
+        padding: 10px 0;
+        font-size: 15px;
+        line-height: 2;
+    }
+    .btn{
+        padding: 40px 0 10px 0 ;
+    }
+   
+}
